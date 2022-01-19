@@ -1,3 +1,5 @@
+orbs:
+  gradle: circleci/gradle@7.3
 # Java Gradle CircleCI 2.0 configuration file
 # See: https://circleci.com/docs/2.0/language-java/
 version: 2
