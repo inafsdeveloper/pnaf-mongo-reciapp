@@ -115,8 +115,8 @@ class IngredientControllerTest {
     void testSaveOrUpdate() throws Exception {
         //given
         IngredientCommand ingredientCommand = new IngredientCommand();
-        ingredientCommand.setId("3L");
-        ingredientCommand.setRecipeId("2L");
+        ingredientCommand.setId("3");
+        ingredientCommand.setRecipeId("2");
 
         //when
         when(ingredientService.saveIngredientCommand(any())).thenReturn(ingredientCommand);
