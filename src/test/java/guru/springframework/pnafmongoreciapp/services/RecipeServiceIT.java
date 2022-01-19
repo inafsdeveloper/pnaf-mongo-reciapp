@@ -28,6 +28,7 @@ public class RecipeServiceIT {
     @Autowired
     RecipeToRecipeCommand recipeToRecipeCommand;
 
+    @Deprecated
     @Transactional
     @Test
     void testSaveOfDescription() throws Exception {

@@ -63,7 +63,7 @@ class RecipeControllerTest {
     @Test
     public void testPostNewRecipeForm() throws Exception {
         RecipeCommand command = new RecipeCommand();
-        command.setId("2L");
+        command.setId("2");
 
         when(recipeService.saveRecipeCommand(any())).thenReturn(command);
 
